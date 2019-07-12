@@ -1,0 +1,34 @@
+import React from "react";
+import PaymentChoice from '../components/join/PaymentChoice'
+
+// reactstrap components
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardTitle,
+  Table,
+  Row,
+  Col, ButtonGroup, Button
+} from "reactstrap";
+import FirstPayment from "../components/join/FirstPayment";
+import classNames from "classnames";
+import PayOnline from "./Dashboard";
+import FirstPayOnline from "../components/join/FirstPayOnline";
+import PayMenu from "../components/sale_buy/PayMenu";
+
+class PayBuy extends React.Component {
+  render() {
+    return (
+      <>
+        <div className="content">
+
+          <PayMenu/>
+        </div>
+
+      </>
+    );
+  }
+}
+
+export default PayBuy;

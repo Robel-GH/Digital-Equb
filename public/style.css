@@ -1,0 +1,73 @@
+.container-fluid .about{
+    padding-top: 50px;
+}
+.navbar {
+    margin-bottom: 10px;
+    background-color: #2d2d30;
+    border: 1px;
+    gap: normal;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+    padding-bottom: 10px;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+/*Modal */
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+
+.modal-footer, p {
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+.about{
+    padding-top: 100px;
+}
+
+.top-buffer { margin-top:20px; }
